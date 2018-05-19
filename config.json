@@ -1,6 +1,6 @@
 {  
     "config":{  
-        "use_https":false,
+        "use_https":true,
         "use_auth":true,
         "use_alerts":true,
         "use_openhab":false
@@ -39,18 +39,18 @@
     },
     "doors":{  
         "left":{  
-            "name":"LEFT",
+            "name":"3rd",
             "relay_pin":23,
-            "state_pin":17,
+            "state_pin":22,
             "state_pin_closed_value":0,
             "approx_time_to_close":15,
             "approx_time_to_open":15,
             "openhab_name":"g_door_left"
         },
         "right":{  
-            "name":"RIGHT",
+            "name":"Main",
             "relay_pin":24,
-            "state_pin":21,
+            "state_pin":27,
             "state_pin_closed_value":0,
             "approx_time_to_close":15,
             "approx_time_to_open":15,
